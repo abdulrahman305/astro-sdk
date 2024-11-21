@@ -1,4 +1,4 @@
-FROM postgres:16.3-bookworm
+FROM postgres:16.5-bookworm
 RUN apt-get update && apt-get -y install git
 ENV POSTGRES_DB pagila
 ENV POSTGRES_USER postgres
